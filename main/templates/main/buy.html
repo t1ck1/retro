@@ -1,0 +1,31 @@
+{% extends 'main/bace.html' %}
+{% block head_list %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'main/css/buy.css' %}">
+{% endblock %}
+{% block url %}https://catherineasquithgallery.com/uploads/posts/2021-02/1612190588_53-p-fioletovii-fon-odnotonnii-na-ves-ekran-68.jpg{% endblock %}
+{% block text_in_headers %}
+    <a href="/" class=" text nav-link px-2">Головна</a>   
+    <a href="text" class=" text nav-link px-2">Відеокурси</a>
+    <a href="/" class=" text nav-link px-2">П.Курси</a>
+    <a href="buy" class=" text_1 nav-link px-2">Про сайт</a>
+{% endblock %}
+{% block height %}height:860px;width:100%;{% endblock %}
+{% block content %}
+<div class='ryt'>
+    <div class="youtube">
+        <h1 class="text_in_youtube">Призначення</h1>
+        <p class="tre">Наша команда створила цей сайт для того щоб новачкам було легко зробити перший крок в сферу програмування, для цого ми підібрали кращі відеоролики для навчання які точно допоможуть вам. Приємного програмування!</p>
+    </div>
+    <div class="youtube">
+        <h1 class="text_in_youtube">YouTube канали</h1>
+        <a class='yout nav-link' href='https://www.youtube.com/@plugar_inf'>Иван Викторович</a>
+        <a class='yout nav-link' href='https://www.youtube.com/@HowdyhoNet'>Хауди Хо™ - Просто о мире IT!</a>
+        <a class='yout nav-link' href='https://www.youtube.com/@gosha_dudar'>Гоша Дударь</a>
+        <a class='yout nav-link' href='https://www.youtube.com/@EduCatterOfficial'>EduCatter Канал о Веб-Программировании</a>
+        <a class='yout nav-link' href='https://www.youtube.com/@codehal'>Codehal</a>
+        <a class='yout nav-link' href='https://www.youtube.com/@BrainsCloud'>BrainsCloud</a>
+    </div>
+</div>
+{% endblock %}
+{% block script %}<script defer src="{% static 'main/js/buy.js' %}"></script>{% endblock %}
